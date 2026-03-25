@@ -1,0 +1,80 @@
+LIKHA: ANG LAHI
+A Filipino Mythology-Themed Android Endless Runner Game
+with AI-Powered Adaptive Difficulty System
+Batiancila, Bj
+Piquero, Stephen Dave
+Langrio, Frances Jan
+Gonzales, Aljued Christian
+Rojas, John Ber
+BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY
+march 2026
+Chapter I
+INTRODUCTION
+Background of the Study
+Mobile gaming has become one of the most rapidly growing sectors in the technology industry. As smartphone usage continues to rise in the Philippines, mobile games have become an accessible form of entertainment for Filipinos of all ages. Despite this growth, very few mobile games incorporate authentic Filipino cultural elements, particularly the rich mythology of pre-colonial Philippines.
+The classic Chrome Dinosaur Game, known for its simple yet addictive endless runner mechanics, has served as a popular template for many mobile game developers. However, most adaptations lack cultural identity and fail to provide a personalized gaming experience. This gap presents an opportunity to develop a culturally-rooted game that also addresses player engagement through intelligent difficulty adjustment.
+This study proposes the development of Likha: Ang Lahi, a Filipino mythology-themed Android endless runner game built using Python and the Kivy framework. The game integrates an AI-Powered Adaptive Difficulty System (AADS) and features pre-colonial Filipino cultural elements including mythological creatures as obstacles, indigenous social hierarchy as a rank system, and Philippine landmarks as game environments.
+Objectives of the Study
+General Objectives
+The general objective of this study is to design and develop a Filipino mythology-themed Android endless runner mobile game with an AI-Powered Adaptive Difficulty System using Python and Kivy.
+Specific Objectives
+1. To design and develop a Filipino mythology-themed endless runner mobile game for Android using Python and Kivy framework.
+2. To implement an AI-Powered Adaptive Difficulty System (AADS) using Python that analyzes player behavior and adjusts obstacle speed, frequency, and type accordingly.
+3. To integrate pre-colonial Filipino cultural elements including mythological creatures (Tikbalang, Manananggal, Kapre, Bakunawa) and the pre-colonial social hierarchy rank system (Alipin to Bathala).
+4. To evaluate the developed game in terms of:
+4.1. Functionality
+4.2. Accuracy of the AI adaptive difficulty system
+4.3. Acceptability among target users
+Significance of the Study
+This study is significant to the following sectors:
+Students and Gamers - This game provides an entertaining platform that exposes players to Filipino mythology, helping them appreciate pre-colonial cultural heritage in an engaging manner.
+Game Developers - This study serves as a reference for developers who wish to incorporate AI adaptive systems and local cultural elements into mobile game projects using Python and Kivy.
+Researchers and Academics - This study contributes to the body of knowledge on AI in mobile gaming and the integration of cultural elements in Python-based software development.
+Filipino Culture - By incorporating authentic pre-colonial Philippine mythology and social structure, this game promotes cultural awareness and preservation of Filipino heritage.
+Scope and Limitation of the Study
+This study focuses on the design, development, and evaluation of Likha: Ang Lahi as an Android mobile game built with Python and the Kivy framework. The game is limited to Android devices running version 8.0 (Oreo) and above, packaged using Buildozer. The AI-Powered Adaptive Difficulty System is limited to adjusting obstacle speed, frequency, and spacing based on player performance data collected within a single session. The game does not include online multiplayer functionality, in-app purchases, or cross-platform support for iOS. The evaluation is limited to respondents from South East Asian Technology inc.
+Operational Definition of Terms
+The following terms are operationally defined as used in this study:
+AI-Powered Adaptive Difficulty System (AADS) - refers to the Python-based system in the game that monitors player behavior and dynamically adjusts game difficulty to maintain optimal player engagement.
+Alipin - in this study, refers to the lowest rank in the game's ranking system, representing a beginning player with a score of 0 to 499, based on the pre-colonial Filipino social class of the same name.
+Bathala - in this study, refers to the highest rank in the game's ranking system awarded to players who achieve a score of 15,000 and above, named after the supreme deity of pre-colonial Filipino mythology.
+Buildozer - refers to the Python packaging tool used in this study to compile and package the Kivy-based game application into an Android APK file for deployment.
+Endless Runner Game - refers to a game genre in which the player character automatically moves forward and the player must avoid obstacles for as long as possible.
+Kivy - refers to the open-source Python framework used in this study for developing the mobile game application, which supports Android deployment via Buildozer.
+Chapter III
+METHODOLOGY
+This chapter discusses the methods, tools, and procedures used in the design and development of Likha: Ang Lahi. It covers the project development description, tools and equipment used, project duration, software development methodology, hardware development methodology, and the evaluation methodology employed in the study.
+Project Development Description
+Likha: Ang Lahi is a 2D side-scrolling endless runner Android mobile game developed using Python and the Kivy framework. The game features Filipino mythological creatures as obstacles, pre-colonial social hierarchy as a rank system, and an AI-Powered Adaptive Difficulty System implemented in Python using scikit-learn and NumPy. The character runs automatically while the player controls jumping and sliding to avoid obstacles. The application is packaged for Android deployment using Buildozer.
+Tools and Equipment
+The following tools and equipment were used in the development of the game:
+Python with Kivy was selected as the primary development stack due to its open-source nature, cross-platform support, and ability to deploy to Android via Buildozer. Kivy provides native multitouch support and hardware-accelerated graphics using OpenGL ES 2, making it well-suited for mobile game development. Additionally, Python's rich ecosystem of libraries such as scikit-learn and NumPy made it ideal for implementing the AI Adaptive Difficulty System.
+Software Development Methodology
+The game Likha: Ang Lahi was developed using the Agile Software Development Life Cycle (SDLC). Agile was selected as the development model because it supports iterative development, continuous testing, and ongoing refinement of system features based on feedback. This approach is well-suited to a Python and Kivy-based mobile game where feature requirements may evolve as development progresses.
+The System Development Life Cycle (SDLC) followed in this study consists of six phases: Planning, Analysis, Design, Implementation, Testing, and Deployment. In the Planning phase, the study objectives, scope, and project timeline were established. During the Analysis phase, the system requirements were gathered and analyzed, including the game mechanics, AI behavior, and cultural content. In the Design phase, the game architecture and UI layout were designed. The Implementation phase involved writing the Python and Kivy source code for all game components including the AADS. The Testing phase covered unit testing, integration testing, and user acceptance testing on the Android device. Finally, the Deployment phase involved packaging the game into an Android APK using Buildozer and distributing it to respondents for evaluation.
+AI-Powered Adaptive Difficulty System (AADS)
+The AI-Powered Adaptive Difficulty System is the core unique feature of Likha: Ang Lahi. It is implemented entirely in Python using scikit-learn and NumPy. The AADS collects player performance data during each game session and uses this data to dynamically adjust the game difficulty in real time.
+The following player behavior metrics are collected by the AADS:
+Based on the collected data, the AADS adjusts the following game parameters:
+Tool / Equipment | Purpose | Version / Specs
+Python | Main programming language | v3.11 or higher
+Kivy Framework | Cross-platform UI framework for Android | v2.3.0
+Buildozer | Package Python/Kivy app into Android APK | v1.34.0
+scikit-learn / NumPy | AI adaptive difficulty system in Python | v1.3.1
+Visual Studio Code | Python code editor and IDE | Latest stable
+Audacity | Audio editing and sound effects | v3.3
+Git / GitHub | Version control | Latest
+Android Device (Test) | Game testing | Android 8.0+
+Development PC | Main workstation | 8GB RAM, i5
+Data Point | Description
+Average Reaction Time | Measures how quickly the player responds to obstacles in milliseconds
+Death Count per Obstacle Type | Tracks which obstacle types cause the most player deaths
+Survival Duration | Records how long the player survives in each session
+Jump / Slide Success Rate | Percentage of successful evasions per obstacle type
+Score per Session | Total score achieved by the player in a given session
+Player Performance | AADS Response
+High success rate (above 80%) | Increase obstacle speed and introduce combo obstacles
+Low success rate (below 40%) | Reduce obstacle speed and increase spacing between obstacles
+Repeated deaths on same obstacle | Temporarily reduce frequency of that specific obstacle type
+Long survival streak | Trigger Bakunawa boss encounter for added challenge
+First-time player detected | Enable Tutorial Mode automatically with reduced difficulty

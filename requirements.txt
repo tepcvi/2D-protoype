@@ -1,0 +1,6 @@
+kivy==2.3.1
+numpy==2.4.3
+python-docx==1.2.0
+lxml==6.0.2
+pillow==11.2.1
+
